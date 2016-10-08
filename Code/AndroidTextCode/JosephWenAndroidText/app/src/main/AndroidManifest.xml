@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jesophwen.josephwenandroidtext">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BaseFiles.BaseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BaseFiles.MainActivity" />
+        <activity android:name=".LayoutFiles.LinearLayoutActivity" />
+        <activity android:name=".LayoutFiles.TableLayoutActivity" />
+        <activity android:name=".LayoutFiles.FrameLayoutActivity" />
+        <activity android:name=".LayoutFiles.RelativeLayoutActivity" />
+        <activity android:name=".LayoutFiles.LayoutActivity" />
+        <activity android:name=".ListViewFiles.ListViewActivity" />
+        <activity android:name=".ListViewFiles.ArrayListActivity" />
+        <activity android:name=".ListViewFiles.CustomList.CustomListActivity" />
+        <activity android:name=".ListViewFiles.DialogList.DialogListActivity" />
+        <activity android:name=".FragmentFiles.FragmentActivity" />
+        <activity android:name=".FragmentFiles.NewsActivity" />
+        <activity android:name=".FragmentFiles.NewsDetailActivity" />
+        <activity android:name=".ReciverFiles.ReciverActivity" />
+
+        <receiver android:name=".ReciverFiles.CustomReciver">
+            <intent-filter>
+                <action android:name="com.example.jesophwen.josephwenandroidtext.CUSTOMRECIVER" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".FileManagerFiles.FileActivity" />
+        <activity android:name=".ContentResolverFiles.ContentResolverActivity" />
+        <activity android:name=".ThreadFiles.ThreadActivity"></activity>
+    </application>
+
+</manifest>

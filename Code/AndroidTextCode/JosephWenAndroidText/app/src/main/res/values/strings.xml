@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">JosephWenAndroidText</string>
+    <!-- 主控制器名称 -->
+    <string name="base_activity_title">主控制器</string>
+    <!-- layout主控制器名称 -->
+    <string name="layout_activity_title">布局活动</string>
+    <!-- table主控制器名称 -->
+    <string name="table_layout_activity_title">列表布局</string>
+    <!-- frame主控制器名称 -->
+    <string name="frame_layout_activity_title">框架布局</string>
+    <!-- relative_主控制器名称 -->
+    <string name="relative_layout_activity_title">绝对布局</string>
+    <!-- linear主控制器名称 -->
+    <string name="linear_layout_activity_title">线性布局</string>
+    <!-- linear主控制器名称 -->
+    <string name="list_view_activity_title">列表视图</string>
+    <!-- linear主控制器名称 -->
+    <string name="fragment_activity_title">碎片化视图</string>
+    <!-- linear主控制器名称 -->
+    <string name="news_activity_title">新闻客户端</string>
+    <!-- linear主控制器名称 -->
+    <string name="news_detail_title">新闻详情</string>
+    <!-- linear主控制器名称 -->
+    <string name="reciver_activity_title">广播通知</string>
+    <!-- linear主控制器名称 -->
+    <string name="file_activity_title">数据管理</string>
+    <!-- linear主控制器名称 -->
+    <string name="network_reciver_title">网络状态监听</string>
+    <!-- linear主控制器名称 -->
+    <string name="custom_reciver_title">自定义广播</string>
+    <!-- linear主控制器名称 -->
+    <string name="local_reciver_title">本地广播</string>
+
+
+    <!-- linear主控制器名称 -->
+    <string name="array_list_activity_title">ArrayList</string>
+
+    <!-- 返回 -->
+    <string name="back">返回</string>
+    <!-- 测试 -->
+    <string name="text">测试</string>
+    <!-- 账号 -->
+    <string name="account">请输入账号</string>
+    <!-- 密码 -->
+    <string name="password">请输入密码</string>
+
+
+</resources>
