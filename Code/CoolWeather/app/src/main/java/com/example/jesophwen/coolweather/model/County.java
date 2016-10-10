@@ -10,6 +10,7 @@ public class County {
     private String countyCode;
     private int cityId;
 
+
     public void setId(int id) {
         this.id = id;
     }

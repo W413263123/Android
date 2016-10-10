@@ -6,6 +6,5 @@ package com.example.jesophwen.coolweather.util;
 
 public interface HttpCallBackListenter {
     void onFinish(String response);
-
     void onError(Exception e);
 }

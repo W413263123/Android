@@ -13,6 +13,7 @@ import java.net.URL;
 
 public class HttpUtil {
     public static void sendHttpRequest(final String address, final HttpCallBackListenter listener) {
+        /** 网络请求不能在主线程中进行 */
         new Thread(new Runnable() {
             @Override
             public void run() {

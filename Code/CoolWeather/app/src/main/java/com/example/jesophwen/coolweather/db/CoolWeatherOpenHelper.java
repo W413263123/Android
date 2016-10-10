@@ -26,6 +26,15 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
     public static final String CREATE_COUNTY = "create table County(" + "id integer primary key " +
             "autoincrement," + "county_name text, " + "county_code text, " + "city_id integer)";
 
+    /** 删除表 */
+    public static final String DELETE_PROVINCE = "drop table if exists Province";
+
+    /**
+     * @param context 上下文
+     * @param name  数据库名称
+     * @param factory
+     * @param version  数据库版本
+     */
     public CoolWeatherOpenHelper(Context context, String name, SQLiteDatabase.CursorFactory
             factory, int version) {
         super(context, name, factory, version);
@@ -42,6 +51,7 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.execSQL(DELETE_PROVINCE);
 
     }
 }
