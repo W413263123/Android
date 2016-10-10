@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ViewPager</string>
+
+    <!-- Button的标题 -->
+    <string name="ButtonTitle1">轮播Banner</string>
+    <string name="ButtonTitle2">引导界面(FixedIndicatorView)</string>
+    <string name="ButtonTitle3">tab主界面(FixedIndicatorView)</string>
+    <string name="ButtonTitle4">可滑动tab界面(ScrollIndicatorView)</string>
+    <string name="ButtonTitle5">可滑动tab界面(ScrollIndicatorView详细配置)</string>
+    <string name="ButtonTitle6">springtab界面(ScrollIndicatorView)</string>
+    <string name="ButtonTitle7">无数tab的界面(RecycleIndicatorView)</string>
+    <string name="ButtonTitle8">不集成ViewPager的Indicator使用方式</string>
 </resources>

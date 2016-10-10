@@ -8,10 +8,85 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jesophwen.viewpager.MainActivity">
+    tools:context="com.example.jesophwen.viewpager.Activity.MainActivity">
 
-    <TextView
+    <LinearLayout
+        android:background="#000"
+        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/main_button1"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/ButtonTitle1"
+            android:onClick="buttonClickAction"
+            />
+        <Button
+            android:id="@+id/main_button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/ButtonTitle2"
+            android:onClick="buttonClickAction"
+            />
+        <Button
+            android:id="@+id/main_button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/ButtonTitle3"
+            android:onClick="buttonClickAction"
+            />
+        <Button
+            android:id="@+id/main_button4"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/ButtonTitle4"
+            android:onClick="buttonClickAction"
+            />
+        <Button
+            android:id="@+id/main_button5"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/ButtonTitle5"
+            android:onClick="buttonClickAction"
+            />
+        <Button
+            android:id="@+id/main_button6"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/ButtonTitle6"
+            android:onClick="buttonClickAction"
+            />
+        <Button
+            android:id="@+id/main_button7"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/ButtonTitle7"
+            android:onClick="buttonClickAction"
+            />
+        <Button
+            android:id="@+id/main_button8"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/ButtonTitle8"
+            android:onClick="buttonClickAction"
+            />
+    </LinearLayout>
 </RelativeLayout>
